@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-10T16:13:49Z" name="All Test Suite" finished-at="2020-05-10T16:14:56Z" duration-ms="67289">
+    <groups>
+    </groups>
+    <test started-at="2020-05-10T16:13:49Z" name="Game2048Suite" finished-at="2020-05-10T16:14:56Z" duration-ms="67289">
+      <class name="Game2048Suite">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:13:49Z" name="setUp" finished-at="2020-05-10T16:13:58Z" duration-ms="9287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInternetConnection()[pri:1, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:13:58Z" name="testInternetConnection" finished-at="2020-05-10T16:14:09Z" duration-ms="10563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInternetConnection -->
+        <test-method signature="testScreenItems()[pri:2, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:09Z" name="testScreenItems" finished-at="2020-05-10T16:14:15Z" duration-ms="6021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenItems -->
+        <test-method signature="testDragActions()[pri:3, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:15Z" name="testDragActions" finished-at="2020-05-10T16:14:19Z" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDragActions -->
+        <test-method signature="testLongClickGesture()[pri:3, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:19Z" name="testLongClickGesture" finished-at="2020-05-10T16:14:21Z" duration-ms="2209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLongClickGesture -->
+        <test-method signature="testAllSwipes()[pri:4, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:21Z" name="testAllSwipes" finished-at="2020-05-10T16:14:43Z" duration-ms="22554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllSwipes -->
+        <test-method signature="testScreenshots()[pri:4, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:43Z" name="testScreenshots" finished-at="2020-05-10T16:14:46Z" duration-ms="2646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenshots -->
+        <test-method signature="testSoftKeyboard()[pri:5, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:46Z" name="testSoftKeyboard" finished-at="2020-05-10T16:14:46Z" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSoftKeyboard -->
+        <test-method signature="testHardwareButtons()[pri:6, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:46Z" name="testHardwareButtons" finished-at="2020-05-10T16:14:49Z" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHardwareButtons -->
+        <test-method signature="testMultiTouchActions()[pri:7, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:49Z" name="testMultiTouchActions" finished-at="2020-05-10T16:14:54Z" duration-ms="4484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiTouchActions -->
+        <test-method signature="testNotificationsBar()[pri:8, instance:Game2048Suite@4b2c5e02]" started-at="2020-05-10T16:14:54Z" name="testNotificationsBar" finished-at="2020-05-10T16:14:56Z" duration-ms="2599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotificationsBar -->
+      </class> <!-- Game2048Suite -->
+    </test> <!-- Game2048Suite -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
