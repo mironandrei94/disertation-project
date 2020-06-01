@@ -26,7 +26,7 @@ public class AppiumServerJava {
 
 
     public void startAndroidSimulator() throws IOException {
-        runtime.exec("cmd /c start cmd.exe /K emulator -avd Pixel_XL_API_R -wipe-data");
+        runtime.exec("cmd /c start cmd.exe /K emulator -avd Pixel_3a_API_29");
         runtime.exec("adb start-server");
     }
     public void stopServer() {

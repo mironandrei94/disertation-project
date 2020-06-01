@@ -1,4 +1,4 @@
-package game2048;
+package droidweight;
 
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
@@ -30,20 +30,20 @@ public class DriverSetup {
         //emulated device
         desire.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
         desire.setCapability("platformName", "android");
-        desire.setCapability("appPackage", "com.scn.twok48");
-        desire.setCapability("appActivity", "com.scn.twok48.MenuActivity");
+        desire.setCapability("appPackage", "de.delusions.measure");
+        desire.setCapability("appActivity", "de.delusions.measure.ErrorMailerActivity");
+        desire.setCapability("automationName", "UiAutomator2");
+        desire.setCapability("noReset", "true");
+        desire.setAcceptInsecureCerts(true);
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), desire);
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-//        driver.findElementById("com.scn.twok48:id/btn_start_game1") .click();
-        (new TouchAction(driver)).tap(PointOption.point(592, 1432)).perform();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @AfterTest
     public void End() {
         driver.rotate(ScreenOrientation.PORTRAIT);
-        driver.quit();
-        server.stopServer();
+//        driver.quit();
+//        server.stopServer();
     }
 
 
