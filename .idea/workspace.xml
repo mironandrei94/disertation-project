@@ -2,19 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3054bbe0-08a5-4d7e-abd4-eeb9ac00668f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/droidweight/DriverSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/droidweight/MainMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game2048/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game2048/DriverSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/AppiumServerJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/AppiumServerJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AppiumSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AurachainSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CalculatorSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Game2048Suite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game2048/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game2048/DriverSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/AppiumServerJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/AppiumServerJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/droidweight/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/droidweight/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/droidweight/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/droidweight/MainMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Game2048Suite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/Game2048Suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Game2048Suite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/Game2048Suite.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +82,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +103,28 @@
       <recent name="C:\Personale\documente personale\disertatie\project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DroidWeightSuite.testScreenshots">
+  <component name="RunManager" selected="TestNG.C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml">
+    <configuration name="C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="listeners.ListenerClass" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorSuite" type="TestNG" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,11 +136,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroidWeightSuite.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DroidWeightSuite.testDragActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DroidWeightSuite" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="METHOD_NAME" value="testDragActions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,11 +148,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroidWeightSuite.testInternetConnection" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DroidWeightSuite.testHardwareButtons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DroidWeightSuite" />
-      <option name="METHOD_NAME" value="testInternetConnection" />
+      <option name="METHOD_NAME" value="testHardwareButtons" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,11 +160,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroidWeightSuite.testLongClickGesture" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DroidWeightSuite.testMultiTouchActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DroidWeightSuite" />
-      <option name="METHOD_NAME" value="testLongClickGesture" />
+      <option name="METHOD_NAME" value="testMultiTouchActions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -130,23 +172,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroidWeightSuite.testScreenItems" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DroidWeightSuite.testSwipes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DroidWeightSuite" />
-      <option name="METHOD_NAME" value="testScreenItems" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DroidWeightSuite.testScreenshots" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DroidWeightSuite" />
-      <option name="METHOD_NAME" value="testScreenshots" />
+      <option name="METHOD_NAME" value="testSwipes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,19 +204,19 @@
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.CalculatorSuite" />
-      <item itemvalue="TestNG.DroidWeightSuite.firstTest" />
-      <item itemvalue="TestNG.DroidWeightSuite.testInternetConnection" />
-      <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
-      <item itemvalue="TestNG.DroidWeightSuite.testLongClickGesture" />
-      <item itemvalue="TestNG.DroidWeightSuite.testScreenshots" />
+      <item itemvalue="TestNG.DroidWeightSuite.testHardwareButtons" />
+      <item itemvalue="TestNG.DroidWeightSuite.testMultiTouchActions" />
+      <item itemvalue="TestNG.DroidWeightSuite.testSwipes" />
+      <item itemvalue="TestNG.DroidWeightSuite.testDragActions" />
+      <item itemvalue="TestNG.C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DroidWeightSuite.testScreenshots" />
-        <item itemvalue="TestNG.DroidWeightSuite.testLongClickGesture" />
-        <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
-        <item itemvalue="TestNG.DroidWeightSuite.testInternetConnection" />
-        <item itemvalue="TestNG.DroidWeightSuite.firstTest" />
+        <item itemvalue="TestNG.C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml" />
+        <item itemvalue="TestNG.DroidWeightSuite.testDragActions" />
+        <item itemvalue="TestNG.DroidWeightSuite.testSwipes" />
+        <item itemvalue="TestNG.DroidWeightSuite.testMultiTouchActions" />
+        <item itemvalue="TestNG.DroidWeightSuite.testHardwareButtons" />
       </list>
     </recent_temporary>
   </component>
@@ -208,20 +238,25 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1251" y="151" key="#C:/Personale/documente_personale/disertatie/project/testng.xml/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589127033404" />
+    <state x="352" y="0" width="591" height="680" key="#C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml" timestamp="1591035499625">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="352" y="0" width="591" height="680" key="#C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035499625" />
     <state x="-1570" y="0" key="#Project_Structure" timestamp="1589050003962">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1570" y="0" key="#Project_Structure/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589050003962" />
     <state x="233" y="0" key="#Project_Structure/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1587204132627" />
-    <state x="-1638" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589127085092">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591035789069">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1638" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589127085092" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1587207150733" />
-    <state x="-1363" y="367" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589127076778">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035789069" />
+    <state x="371" y="240" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591027384753">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1363" y="367" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589127076778" />
+    <state x="371" y="240" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591027384753" />
     <state x="366" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585494549644">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -239,40 +274,40 @@
     </state>
     <state x="-1288" y="125" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589126961381" />
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587807263220" />
-    <state width="1281" height="625" key="GridCell.Tab.0.bottom" timestamp="1591024228390">
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom" timestamp="1591035978919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1920" height="984" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589128890690" />
-    <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591024228390" />
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035978919" />
     <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587917536893" />
-    <state width="1281" height="625" key="GridCell.Tab.0.center" timestamp="1591024228390">
+    <state width="1921" height="984" key="GridCell.Tab.0.center" timestamp="1591035978919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1920" height="984" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589128890689" />
-    <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591024228390" />
+    <state width="1921" height="984" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035978919" />
     <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587917536893" />
-    <state width="1281" height="625" key="GridCell.Tab.0.left" timestamp="1591024228390">
+    <state width="1921" height="984" key="GridCell.Tab.0.left" timestamp="1591035978919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1920" height="984" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589128890689" />
-    <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591024228390" />
+    <state width="1921" height="984" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035978919" />
     <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587917536893" />
-    <state width="1281" height="625" key="GridCell.Tab.0.right" timestamp="1591024228390">
+    <state width="1921" height="984" key="GridCell.Tab.0.right" timestamp="1591035978919">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1920" height="984" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589128890690" />
-    <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591024228390" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035978919" />
     <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587917536893" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1587809023043">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1587809023043" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1587807103330" />
-    <state x="-1738" y="0" key="SettingsEditor" timestamp="1589127104896">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1591035344979">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1738" y="0" key="SettingsEditor/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589127104896" />
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1587203117034" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035344979" />
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585496398302" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586068180976">
       <screen x="0" y="0" width="1280" height="680" />

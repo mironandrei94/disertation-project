@@ -1,7 +1,9 @@
 package droidweight;
 
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.MultiTouchAction;
 import io.appium.java_client.TouchAction;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
@@ -69,6 +71,35 @@ public class MainMethods extends DriverSetup {
         element.sendKeys(newWeight);
         driver.findElement(comment).sendKeys("modified");
         driver.findElement(okButton).click();
+    }
+
+    public void multiTouchAction(){
+
+        int height = driver.manage().window().getSize().getHeight(); //To get the mobile screen height
+        int width = driver.manage().window().getSize().getWidth();//To get the mobile screen width
+
+        TouchAction touch1 = new TouchAction(((AndroidDriver)driver));
+        touch1.press(new PointOption().point(width/2, (height/2)-60)).
+                waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000))).
+                moveTo(new PointOption().point((width/2)-10,(height/2)-400)).
+                release();
+        TouchAction touch2 = new TouchAction(((AndroidDriver)driver));
+        touch2.press(new PointOption().point((width/2)-30, (height/2)+60)).
+                waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000))).
+                moveTo(new PointOption().point((width/2)-50,(height/2)+400)).
+                release();
+
+        MultiTouchAction multi = new MultiTouchAction(driver);
+        multi.add(touch1).add(touch2).perform();
+    }
+
+    public void dragAction(){
+        TouchAction action = new TouchAction(((AndroidDriver)driver));
+        action.press(new PointOption().point(100,100))
+                .waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
+                .moveTo(new PointOption().point(100,200))
+                .perform()
+                .release();
     }
 
 }

@@ -42,7 +42,7 @@ public class DriverSetup {
     @AfterTest
     public void End() {
         driver.rotate(ScreenOrientation.PORTRAIT);
-//        driver.quit();
+        driver.quit();
 //        server.stopServer();
     }
 
