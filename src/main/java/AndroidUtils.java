@@ -92,7 +92,7 @@ public class AndroidUtils {
     }
 
 
-    public void swipe(MainMethods.DIRECTION direction, long duration) {
+    public void swipe(DIRECTION direction, long duration) {
         Dimension size = driver.manage().window().getSize();
         log.info(marker,"Swipe in the direction: " + direction);
         int startX = 0;

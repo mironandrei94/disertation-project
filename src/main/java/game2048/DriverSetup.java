@@ -34,7 +34,6 @@ public class DriverSetup {
         desire.setCapability("appActivity", "com.scn.twok48.MenuActivity");
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), desire);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-//        driver.findElementById("com.scn.twok48:id/btn_start_game1") .click();
         (new TouchAction(driver)).tap(PointOption.point(592, 1432)).perform();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }

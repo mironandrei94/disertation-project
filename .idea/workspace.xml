@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3054bbe0-08a5-4d7e-abd4-eeb9ac00668f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/googleMaps/DriverSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/googleMaps/MainMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MapsSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/AppiumServerJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/AppiumServerJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game2048/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game2048/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/googleMaps/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/googleMaps/MainMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MapsSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MapsSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AndroidUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AndroidUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AndroidUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AndroidUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/game2048/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game2048/DriverSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/AppiumServerJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/AppiumServerJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/googleMaps/DriverSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods$DIRECTION.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DroidWeightSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DroidWeightSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MapsSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MapsSuite.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,46 +66,26 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Personale\documente personale\disertatie\project\src\main\resources" />
-      <recent name="C:\Personale\documente personale\disertatie\project\src\main\java\resources" />
-      <recent name="C:\Users\mcostin\Desktop\disertatie\project\src\lib" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Personale\documente personale\disertatie\project\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gmailTest" />
       <recent name="droidweight" />
       <recent name="" />
       <recent name="aurachain" />
       <recent name="game2048" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Personale\documente personale\disertatie\project\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Personale\documente personale\disertatie\project\src\main\resources" />
+      <recent name="C:\Personale\documente personale\disertatie\project\src\main\java\resources" />
+      <recent name="C:\Users\mcostin\Desktop\disertatie\project\src\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MapsSuite.searchLocation">
-    <configuration name="C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="listeners.ListenerClass" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.GmailTest.firstTest">
     <configuration name="CalculatorSuite" type="TestNG" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
@@ -126,6 +114,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Game2048Suite" />
       <option name="METHOD_NAME" value="testDragActions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmailTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GmailTest" />
+      <option name="METHOD_NAME" value="firstTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -177,19 +177,19 @@
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.CalculatorSuite" />
-      <item itemvalue="TestNG.C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml" />
       <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
       <item itemvalue="TestNG.Game2048Suite.testDragActions" />
       <item itemvalue="TestNG.MapsSuite.firstTest" />
       <item itemvalue="TestNG.MapsSuite.searchLocation" />
+      <item itemvalue="TestNG.GmailTest.firstTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GmailTest.firstTest" />
         <item itemvalue="TestNG.MapsSuite.searchLocation" />
         <item itemvalue="TestNG.MapsSuite.firstTest" />
         <item itemvalue="TestNG.Game2048Suite.testDragActions" />
         <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
-        <item itemvalue="TestNG.C:/Users/Andre/Desktop/disertatie/disertatie/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -247,29 +247,29 @@
     </state>
     <state x="-1288" y="125" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589126961381" />
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587807263220" />
-    <state width="1281" height="625" key="GridCell.Tab.0.bottom" timestamp="1591447952908">
+    <state width="1281" height="625" key="GridCell.Tab.0.bottom" timestamp="1591457796306">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1921" height="984" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382503893" />
+    <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796306" />
     <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.center" timestamp="1591447952908">
+    <state width="1281" height="625" key="GridCell.Tab.0.center" timestamp="1591457796305">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1921" height="984" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382503893" />
+    <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796305" />
     <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.left" timestamp="1591447952908">
+    <state width="1281" height="625" key="GridCell.Tab.0.left" timestamp="1591457796305">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1921" height="984" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382503893" />
+    <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796305" />
     <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.right" timestamp="1591447952908">
+    <state width="1281" height="625" key="GridCell.Tab.0.right" timestamp="1591457796306">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1921" height="984" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382503893" />
+    <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796306" />
     <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1591382194119">
       <screen x="0" y="0" width="1280" height="680" />
@@ -308,10 +308,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="375" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1585495313968" />
-    <state x="-1265" y="252" width="610" height="536" key="find.popup" timestamp="1589050119534">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="437" y="144" width="609" height="536" key="find.popup" timestamp="1591449908759">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1265" y="252" width="610" height="536" key="find.popup/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589050119534" />
+    <state x="437" y="144" width="609" height="536" key="find.popup/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591449908759" />
     <state x="-1783" y="0" key="new project wizard" timestamp="1589126538586">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

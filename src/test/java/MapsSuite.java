@@ -7,27 +7,34 @@ import org.testng.annotations.Test;
 
 public class MapsSuite extends MainMethods {
 
-    private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(Game2048Suite.class.getName());
-    private static final Marker This = MarkerManager.getMarker(Game2048Suite.class.getName());
+    private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(MapsSuite.class.getName());
+    private static final Marker This = MarkerManager.getMarker(MapsSuite.class.getName());
 
     @Test
     public void searchLocationAndStartNavigation() throws InterruptedException {
         log.info(This, "Session id : "+ driver.getSessionId());
+        AndroidUtils utils = new AndroidUtils(driver,log,This);
         log.info(This,"Start test");
         String locatieDeplasare = "Galati";
         searchGoogleMapsLocation(locatieDeplasare);
         Assert.assertNotNull(getDuration());
         Assert.assertNotNull(getSpeed());
+
+        // get metrics
         log.info(This,"Durata deplasarii pana la locatie "+ locatieDeplasare+ " este de: "+ getDuration());
         log.info(This, getSpeed());
-        swipe(DIRECTION.RIGHT, 200);
-        swipe(DIRECTION.UP, 200);
-        swipe(DIRECTION.LEFT, 200);
-        swipe(DIRECTION.LEFT, 200);
-        swipe(DIRECTION.DOWN, 200);
-        swipe(DIRECTION.DOWN, 200);
+
+        //swipes all directions
+        utils.swipe(AndroidUtils.DIRECTION.RIGHT, 200);
+        utils.swipe(AndroidUtils.DIRECTION.UP, 200);
+        utils.swipe(AndroidUtils.DIRECTION.LEFT, 200);
+        utils.swipe(AndroidUtils.DIRECTION.LEFT, 200);
+        utils.swipe(AndroidUtils.DIRECTION.DOWN, 200);
+        utils.swipe(AndroidUtils.DIRECTION.DOWN, 200);
         recenterView();
 
+        //zoom in and zoom out
+        testZooms();
 
     }
 }

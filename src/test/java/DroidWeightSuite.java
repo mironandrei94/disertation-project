@@ -123,10 +123,10 @@ public class DroidWeightSuite extends MainMethods {
         //swipe actions
         AndroidUtils utils = new AndroidUtils(driver,log,This);
         log.info(This,"Start test");
-        utils.swipe(game2048.MainMethods.DIRECTION.RIGHT, 200);
-        utils.swipe(game2048.MainMethods.DIRECTION.UP, 200);
-        utils.swipe(game2048.MainMethods.DIRECTION.LEFT, 200);
-        utils.swipe(game2048.MainMethods.DIRECTION.DOWN, 200);
+        utils.swipe(AndroidUtils.DIRECTION.RIGHT, 200);
+        utils.swipe(AndroidUtils.DIRECTION.UP, 200);
+        utils.swipe(AndroidUtils.DIRECTION.LEFT, 200);
+        utils.swipe(AndroidUtils.DIRECTION.DOWN, 200);
     }
 
     @Test(priority = 10)
