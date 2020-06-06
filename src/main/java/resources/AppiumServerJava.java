@@ -14,8 +14,8 @@ public class AppiumServerJava {
 
     public void startServer() {
         try {
-//            if (!isEmulatorOrDeviceRunning())
-//                startAndroidSimulator();
+            if (!isEmulatorOrDeviceRunning())
+                startAndroidSimulator();
 //                Thread.sleep(100000);
             runtime.exec("cmd.exe /c start cmd.exe /k \"appium -a 127.0.0.1 -p 4723 --session-override -dc \"{\"\"noReset\"\": \"\"false\"\"}\"\" --chromedriver-executable C:\\Users\\Andre\\node_modules\\appium\\node_modules\\appium-chromedriver\\chromedriver\\win\\chromedriver.exe");
             Thread.sleep(10000);
