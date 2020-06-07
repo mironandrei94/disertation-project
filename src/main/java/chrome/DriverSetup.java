@@ -31,7 +31,8 @@ public class DriverSetup {
     public void setUp() throws IOException {
         server.startServer();
         DesiredCapabilities desire = new DesiredCapabilities();
-        desire.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
+        desire.setCapability(MobileCapabilityType.DEVICE_NAME, "3300914cbc31634d");
+//        desire.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
         desire.setCapability(CapabilityType.BROWSER_NAME, "Chrome");
         desire.setCapability(CapabilityType.VERSION, "7.0");
         desire.setCapability(CapabilityType.PLATFORM_NAME, "WINDOWS");
@@ -39,7 +40,7 @@ public class DriverSetup {
         desire.setCapability("autoGrantPermissions","true");
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AndroidDriver<>(url, desire);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 
 
     }

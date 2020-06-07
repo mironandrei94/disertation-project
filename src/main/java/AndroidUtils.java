@@ -15,6 +15,7 @@ import org.openqa.selenium.TakesScreenshot;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Base64;
 
 import static java.lang.Thread.sleep;
 
@@ -140,5 +141,17 @@ public class AndroidUtils {
                 .release()
                 .perform();
 
+    }
+
+    public void startRecordTest(){
+        driver.startRecordingScreen();
+    }
+
+    public void stopRecordingTest(String videoName) throws IOException, InterruptedException {
+        Thread.sleep(5000);
+        String s = ((AndroidDriver) driver).stopRecordingScreen();
+        byte[] decode = Base64.getDecoder().decode(s);
+        FileUtils.writeByteArrayToFile(new File("C:\\Users\\Andre\\Desktop\\disertatie\\disertatie\\src\\main\\java\\screenshots\\"+videoName+".mp4"),
+                decode);
     }
 }

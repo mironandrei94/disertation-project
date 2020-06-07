@@ -5,15 +5,18 @@ import org.apache.logging.log4j.MarkerManager;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class MapsSuite extends MainMethods {
 
     private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(MapsSuite.class.getName());
     private static final Marker This = MarkerManager.getMarker(MapsSuite.class.getName());
 
     @Test
-    public void searchLocationAndStartNavigation() throws InterruptedException {
+    public void searchLocationAndStartNavigation() throws InterruptedException, IOException {
         log.info(This, "Session id : "+ driver.getSessionId());
         AndroidUtils utils = new AndroidUtils(driver,log,This);
+        utils.startRecordTest();
         log.info(This,"Start test");
         String locatieDeplasare = "Galati";
         searchGoogleMapsLocation(locatieDeplasare);
@@ -35,6 +38,7 @@ public class MapsSuite extends MainMethods {
 
         //zoom in and zoom out
         testZooms();
+        utils.stopRecordingTest("googleMapsVideo");
 
     }
 }

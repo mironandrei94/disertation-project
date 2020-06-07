@@ -4,18 +4,19 @@
     <list default="true" id="3054bbe0-08a5-4d7e-abd4-eeb9ac00668f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game2048/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game2048/DriverSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/googleMaps/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/googleMaps/MainMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome/MainMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChromeSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MapsSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MapsSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AndroidUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AndroidUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AndroidUtils$DIRECTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AndroidUtils$DIRECTION.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/AndroidUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AndroidUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game2048/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game2048/DriverSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/googleMaps/DriverSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods$DIRECTION.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DroidWeightSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DroidWeightSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome/DriverSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome/MainMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gmailTest/DriverSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/gmailTest/MainMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GmailTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/MapsSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MapsSuite.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +74,11 @@
       <recent name="C:\Personale\documente personale\disertatie\project\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aliexpress" />
       <recent name="gmailTest" />
       <recent name="droidweight" />
       <recent name="" />
       <recent name="aurachain" />
-      <recent name="game2048" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Personale\documente personale\disertatie\project\src\main\resources" />
@@ -85,7 +86,30 @@
       <recent name="C:\Users\mcostin\Desktop\disertatie\project\src\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GmailTest.firstTest">
+  <component name="RunManager" selected="TestNG.Aliexpress">
+    <configuration name="Aliexpress" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Aliexpress" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aliexpress.searchAliexpres" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Aliexpress" />
+      <option name="METHOD_NAME" value="searchAliexpres" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorSuite" type="TestNG" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,23 +121,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DroidWeightSuite.testScreenItems" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChromeSuite.searchAliexpres" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DroidWeightSuite" />
-      <option name="METHOD_NAME" value="testScreenItems" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Game2048Suite.testDragActions" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Game2048Suite" />
-      <option name="METHOD_NAME" value="testDragActions" />
+      <option name="MAIN_CLASS_NAME" value="ChromeSuite" />
+      <option name="METHOD_NAME" value="searchAliexpres" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,24 +145,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapsSuite.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MapsSuite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MapsSuite" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapsSuite.searchLocation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapsSuite" />
-      <option name="METHOD_NAME" value="searchLocation" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -177,19 +176,19 @@
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.CalculatorSuite" />
-      <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
-      <item itemvalue="TestNG.Game2048Suite.testDragActions" />
-      <item itemvalue="TestNG.MapsSuite.firstTest" />
-      <item itemvalue="TestNG.MapsSuite.searchLocation" />
       <item itemvalue="TestNG.GmailTest.firstTest" />
+      <item itemvalue="TestNG.ChromeSuite.searchAliexpres" />
+      <item itemvalue="TestNG.Aliexpress.searchAliexpres" />
+      <item itemvalue="TestNG.MapsSuite" />
+      <item itemvalue="TestNG.Aliexpress" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Aliexpress" />
+        <item itemvalue="TestNG.MapsSuite" />
+        <item itemvalue="TestNG.Aliexpress.searchAliexpres" />
+        <item itemvalue="TestNG.ChromeSuite.searchAliexpres" />
         <item itemvalue="TestNG.GmailTest.firstTest" />
-        <item itemvalue="TestNG.MapsSuite.searchLocation" />
-        <item itemvalue="TestNG.MapsSuite.firstTest" />
-        <item itemvalue="TestNG.Game2048Suite.testDragActions" />
-        <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +224,10 @@
     </state>
     <state x="-1638" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589127085092" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591035789069" />
+    <state x="394" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591521630021">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="394" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591521630021" />
     <state x="371" y="240" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591027384753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -247,29 +250,29 @@
     </state>
     <state x="-1288" y="125" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589126961381" />
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587807263220" />
-    <state width="1281" height="625" key="GridCell.Tab.0.bottom" timestamp="1591457796306">
+    <state width="1281" height="625" key="GridCell.Tab.0.bottom" timestamp="1591522807122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796306" />
+    <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591522807122" />
     <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.center" timestamp="1591457796305">
+    <state width="1281" height="625" key="GridCell.Tab.0.center" timestamp="1591522807122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796305" />
+    <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591522807122" />
     <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.left" timestamp="1591457796305">
+    <state width="1281" height="625" key="GridCell.Tab.0.left" timestamp="1591522807122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796305" />
+    <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591522807122" />
     <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.right" timestamp="1591457796306">
+    <state width="1281" height="625" key="GridCell.Tab.0.right" timestamp="1591522807122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1921" height="984" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591457796306" />
+    <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591522807122" />
     <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1591382194119">
       <screen x="0" y="0" width="1280" height="680" />
