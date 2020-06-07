@@ -39,6 +39,4 @@ public class AurachainSuite extends PortalPage {
                 );
     }
 
-
-
 }
