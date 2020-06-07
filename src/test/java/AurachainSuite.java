@@ -16,8 +16,6 @@ public class AurachainSuite extends PortalPage {
     String numeFirma = "Android local device submit";
     String mail = "mironandreicostin@gmail.com";
     String nrTelefon = "0722594767";
-//    private static final Logger Log = (Logger) LogManager.getLogger(AurachainSuite.class.getName());
-//    private static final Marker This = MarkerManager.getMarker(AurachainSuite.class.getName());
 
 
     @Test
