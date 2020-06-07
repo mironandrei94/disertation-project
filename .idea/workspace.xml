@@ -3,41 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3054bbe0-08a5-4d7e-abd4-eeb9ac00668f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AndroidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/AndroidUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aliexpress/DriverSetup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aliexpress/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appsObjects/Aliexpress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/DriverSetup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/MainMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chrome/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome/DriverSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chrome/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome/MainMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/droidweight/DriverSetup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/droidweight/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appsObjects/DroidWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game2048/DriverSetup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game2048/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appsObjects/Game2048.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/googleMaps/DriverSetup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/googleMaps/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appsObjects/GoogleMaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/screenshots/aliexpressVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screenshots/aliexpressVideo.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Aliexpress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AliexpressSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DroidWeightSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Game2048Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Game2048Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MapsSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MapsSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AndroidUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AndroidUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculator/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculator/MainMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chrome/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome/DriverSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chrome/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome/MainMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game2048/MainMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game2048/MainMethods$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game2048/MainMethods$DIRECTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game2048/MainMethods$DIRECTION.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game2048/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game2048/MainMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/googleMaps/MainMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Aliexpress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Aliexpress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculatorSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ChromeSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ChromeSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DroidWeightSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DroidWeightSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Game2048Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Game2048Suite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MapsSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MapsSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GalerySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GalerySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
