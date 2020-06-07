@@ -9,7 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Keyboard;
 import org.openqa.selenium.interactions.touch.TouchActions;
-import game2048.MainMethods.DIRECTION;
 
 import javax.swing.text.Keymap;
 import java.util.HashMap;

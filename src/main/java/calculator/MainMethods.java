@@ -1,10 +1,11 @@
 package calculator;
 import io.appium.java_client.MobileElement;
 import org.testng.Assert;
+import resources.Base;
 
 import java.util.Collection;
 
-public class MainMethods extends DriverSetup{
+public class MainMethods extends Base {
 
     protected void clickNumber(int number){
         for (char c: String.valueOf(number).toCharArray()) {

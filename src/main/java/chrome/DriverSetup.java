@@ -1,24 +1,17 @@
 package chrome;
 
-import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import io.appium.java_client.ios.IOSDriver;
-import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.remote.MobileCapabilityType;
-import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import resources.AppiumServerJava;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
-import resources.AppiumServerJava;
-import io.appium.java_client.android.AndroidDriver;
 
 
 public class DriverSetup {
@@ -46,11 +39,10 @@ public class DriverSetup {
     }
 
 
-
-//    @AfterTest
-//    public void End() {
-////        server.stopServer();
-//        driver.close();
-//    }
+    @AfterTest
+    public void End() {
+//        server.stopServer();
+        driver.close();
+    }
 
 }

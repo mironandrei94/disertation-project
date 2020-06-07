@@ -1,10 +1,12 @@
-import game2048.MainMethods;
+import appsObjects.Game2048;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import org.apache.commons.lang3.builder.ToStringExclude;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import javax.management.Notification;
@@ -14,10 +16,25 @@ import static java.lang.Thread.sleep;
 import static org.testng.Assert.*;
 
 
-public class Game2048Suite extends MainMethods{
+public class Game2048Suite extends Game2048 {
 
+    String appPackage = "com.scn.twok48";
+    String appActivity = "com.scn.twok48.MenuActivity";
     private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(Game2048Suite.class.getName());
     private static final Marker This = MarkerManager.getMarker(Game2048Suite.class.getName());
+
+    @BeforeMethod
+    public void tearup() throws IOException
+    {
+        // Init driver and PageObject
+        driver = setUp(appPackage, appActivity);
+    }
+
+    @AfterMethod
+    public void teardown()
+    {
+        driver.quit();
+    }
 
     @Test(priority = 1)
     public void testInternetConnection(){

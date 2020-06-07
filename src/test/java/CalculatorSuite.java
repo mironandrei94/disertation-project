@@ -1,11 +1,38 @@
 import calculator.Constants;
 import calculator.MainMethods;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Marker;
+import org.apache.logging.log4j.MarkerManager;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.util.BitSet;
 
 public class CalculatorSuite extends MainMethods {
 
+
+    String appPackage = "com.sec.android.app.popupcalculator";
+    String appActivity = "com.sec.android.app.popupcalculator.Calculator";
+
+    //Logger
+    private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(CalculatorSuite.class.getName());
+    private static final Marker This = MarkerManager.getMarker(CalculatorSuite.class.getName());
+
+    //Driver initialization
+    @BeforeMethod
+    public void tearup() throws IOException
+    {
+        // Init driver and PageObject
+        driver = setUp(appPackage, appActivity);
+    }
+
+    @AfterMethod
+    public void teardown()
+    {
+        driver.quit();
+    }
     @Test
     public void testMultiplyOperation(){
         clickNumber(9);

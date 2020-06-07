@@ -1,16 +1,35 @@
-import googleMaps.MainMethods;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import resources.AndroidUtils;
 
 import java.io.IOException;
 
-public class MapsSuite extends MainMethods {
+public class MapsSuite extends googleMaps.GoogleMaps {
 
+    String appPackage = "com.google.android.apps.maps";
+    String appActivity = "com.google.android.maps.MapsActivity";
     private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(MapsSuite.class.getName());
     private static final Marker This = MarkerManager.getMarker(MapsSuite.class.getName());
+
+
+    @BeforeMethod
+    public void tearup() throws IOException
+    {
+        // Init driver and PageObject
+        driver = setUp(appPackage, appActivity);
+    }
+
+    @AfterMethod
+    public void teardown()
+    {
+        driver.quit();
+    }
+
 
     @Test
     public void searchLocationAndStartNavigation() throws InterruptedException, IOException {

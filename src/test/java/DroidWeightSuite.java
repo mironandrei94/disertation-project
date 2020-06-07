@@ -1,11 +1,14 @@
-import droidweight.MainMethods;
+import appsObjects.DroidWeight;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Marker;
 import org.apache.logging.log4j.MarkerManager;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import resources.AndroidUtils;
 
 import java.io.IOException;
 
@@ -13,10 +16,28 @@ import static java.lang.Thread.sleep;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
-public class DroidWeightSuite extends MainMethods {
+public class DroidWeightSuite extends DroidWeight {
 
+    String appPackage = "de.delusions.measure";
+    String appActivity = "de.delusions.measure.ErrorMailerActivity";
+
+    //Logger
     private static final org.apache.logging.log4j.Logger log = LogManager.getLogger(DroidWeightSuite.class.getName());
     private static final Marker This = MarkerManager.getMarker(DroidWeightSuite.class.getName());
+
+    //Driver initialization
+    @BeforeMethod
+    public void tearup() throws IOException
+    {
+        // Init driver and PageObject
+        driver = setUp(appPackage, appActivity);
+    }
+
+    @AfterMethod
+    public void teardown()
+    {
+        driver.quit();
+    }
 
     @Test(priority = 1)
     public void testScreenItems() throws InterruptedException {
@@ -35,7 +56,8 @@ public class DroidWeightSuite extends MainMethods {
         log.info(This, "click plus button");
         clickButton(plus);
         log.info(This, "click set current weight");
-        clickButton(setCurrentWeight);
+//        clickButton(setCurrentWeight);
+        clickButton(getCurrentWeight());
         String currentWeight = getLastWeight();
         Assert.assertEquals("101 kg", currentWeight);
         log.info(This, "Test passed");
