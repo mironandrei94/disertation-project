@@ -28,14 +28,17 @@ public class Aliexpress extends Base {
     By input = By.id("com.alibaba.aliexpresshd:id/rl_search_box");
     By inputText = By.id("com.alibaba.aliexpresshd:id/abs__search_src_text");
     By image= By.className("android.widget.ImageView");
+    By search = By.id("com.alibaba.aliexpresshd:id/abs__search_go_btn");
 
     protected void searchAliexpress(String inputString) throws InterruptedException {
 //        driver.findElement(stay).click();
         Thread.sleep(4000);
         driver.findElement(input).click();
         driver.findElement(inputText).sendKeys(inputString);
-        Thread.sleep(3000);
-        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
+        Thread.sleep(5000);
+//        driver.pressKey(new KeyEvent(AndroidKey.ENTER));
+        driver.findElement(search).click();
+        Thread.sleep(5000);
     }
 
     public void scrollDownUntilElementVisible(AndroidElement element){

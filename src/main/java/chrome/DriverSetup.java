@@ -31,6 +31,7 @@ public class DriverSetup {
         desire.setCapability(CapabilityType.PLATFORM_NAME, "WINDOWS");
         desire.setCapability("platformName", "Android");
         desire.setCapability("autoGrantPermissions","true");
+        desire.setCapability("noReset", "true");
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AndroidDriver<>(url, desire);
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
@@ -39,10 +40,10 @@ public class DriverSetup {
     }
 
 
-    @AfterTest
-    public void End() {
-//        server.stopServer();
-        driver.close();
-    }
+//    @AfterTest
+//    public void End() {
+////        server.stopServer();
+//        driver.close();
+//    }
 
 }

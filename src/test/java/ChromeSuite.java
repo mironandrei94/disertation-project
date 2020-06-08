@@ -12,8 +12,8 @@ public class ChromeSuite extends MainMethods{
     private static final Marker This = MarkerManager.getMarker(ChromeSuite.class.getName());
 
     @Test
-    public void youTubeSearch(){
-        searchYouTube("miami bici");
+    public void youTubeSearch() throws InterruptedException {
+        searchYouTube("we are the champions");
 
     }
     @Test

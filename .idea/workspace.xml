@@ -3,6 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="3054bbe0-08a5-4d7e-abd4-eeb9ac00668f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appsObjects/Aliexpress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appsObjects/Aliexpress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome/DriverSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome/DriverSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chrome/MainMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chrome/MainMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/AndroidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/AndroidUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screenshots/SearchPhoto.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screenshots/SearchPhoto.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screenshots/aliexpressVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screenshots/aliexpressVideo.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/screenshots/googleMapsVideo.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/screenshots/googleMapsVideo.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChromeSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChromeSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GalerySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GalerySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aliexpress/Aliexpress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aliexpress/Aliexpress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome/DriverSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome/DriverSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chrome/MainMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chrome/MainMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/AndroidUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/AndroidUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AurachainSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AurachainSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChromeSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ChromeSuite.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +86,7 @@
       <recent name="C:\Personale\documente personale\disertatie\project\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GalerySearch.SearchPhoto">
+  <component name="RunManager" selected="TestNG.ChromeSuite.youTubeSearch">
     <configuration name="AliexpressSuite.searchAliexpres" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,35 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorSuite.testMultiplyOperation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChromeSuite.youTubeSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorSuite" />
-      <option name="METHOD_NAME" value="testMultiplyOperation" />
+      <option name="MAIN_CLASS_NAME" value="ChromeSuite" />
+      <option name="METHOD_NAME" value="youTubeSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DroidWeightSuite.testScreenItems" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DroidWeightSuite" />
-      <option name="METHOD_NAME" value="testScreenItems" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GalerySearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GalerySearch" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,6 +127,29 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GalerySearch" />
       <option name="METHOD_NAME" value="SearchPhoto" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapsSuite" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MapsSuite" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapsSuite.searchLocationAndStartNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MapsSuite" />
+      <option name="METHOD_NAME" value="searchLocationAndStartNavigation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,19 +177,19 @@
     <list>
       <item itemvalue="TestNG.&lt;default&gt;" />
       <item itemvalue="TestNG.CalculatorSuite" />
-      <item itemvalue="TestNG.AliexpressSuite.searchAliexpres" />
-      <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
-      <item itemvalue="TestNG.CalculatorSuite.testMultiplyOperation" />
-      <item itemvalue="TestNG.GalerySearch" />
       <item itemvalue="TestNG.GalerySearch.SearchPhoto" />
+      <item itemvalue="TestNG.MapsSuite" />
+      <item itemvalue="TestNG.AliexpressSuite.searchAliexpres" />
+      <item itemvalue="TestNG.MapsSuite.searchLocationAndStartNavigation" />
+      <item itemvalue="TestNG.ChromeSuite.youTubeSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ChromeSuite.youTubeSearch" />
         <item itemvalue="TestNG.GalerySearch.SearchPhoto" />
-        <item itemvalue="TestNG.GalerySearch" />
-        <item itemvalue="TestNG.CalculatorSuite.testMultiplyOperation" />
-        <item itemvalue="TestNG.DroidWeightSuite.testScreenItems" />
         <item itemvalue="TestNG.AliexpressSuite.searchAliexpres" />
+        <item itemvalue="TestNG.MapsSuite.searchLocationAndStartNavigation" />
+        <item itemvalue="TestNG.MapsSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -248,45 +263,49 @@
     </state>
     <state x="-1288" y="125" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589126961381" />
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587807263220" />
-    <state width="1281" height="625" key="GridCell.Tab.0.bottom" timestamp="1591532207313">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom" timestamp="1591624501027">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591532207313" />
+    <state width="1921" height="984" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624501027" />
+    <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591546025917" />
     <state width="1281" height="625" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.center" timestamp="1591532207313">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1921" height="984" key="GridCell.Tab.0.center" timestamp="1591624501027">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591532207313" />
+    <state width="1921" height="984" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624501027" />
+    <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591546025916" />
     <state width="1281" height="625" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.left" timestamp="1591532207313">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1921" height="984" key="GridCell.Tab.0.left" timestamp="1591624501026">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591532207313" />
+    <state width="1921" height="984" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624501026" />
+    <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591546025915" />
     <state width="1281" height="625" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1281" height="625" key="GridCell.Tab.0.right" timestamp="1591532207313">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right" timestamp="1591624501027">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="984" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591385373462" />
-    <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591532207313" />
+    <state width="1921" height="984" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624501027" />
+    <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591546025916" />
     <state width="1281" height="625" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591447952908" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1591382194119">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1591624500564">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624500564" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382194119" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1591382194118">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1591624500564">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624500564" />
     <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382194118" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1591382194118">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1591624500563">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624500563" />
     <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382194118" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1591382194118">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1591624500564">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1591624500564" />
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591382194118" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1587809023043">
       <screen x="0" y="0" width="1280" height="680" />
@@ -329,5 +348,16 @@
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1591529387579" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591447119909" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/appsObjects/Aliexpress.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

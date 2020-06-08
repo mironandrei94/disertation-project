@@ -30,11 +30,11 @@ public class GalerySearch extends Base {
         driver = setUp(appPackage, appActivity);
     }
 
-    @AfterMethod
-    public void teardown()
-    {
-        driver.quit();
-    }
+//    @AfterMethod
+//    public void teardown()
+//    {
+//        driver.quit();
+//    }
 
     @Test
     public void SearchPhoto() throws IOException, InterruptedException {

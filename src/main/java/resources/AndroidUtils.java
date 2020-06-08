@@ -155,7 +155,7 @@ public class AndroidUtils {
     }
 
     public void stopRecordingTest(String videoName) throws IOException, InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         String s = ((AndroidDriver) driver).stopRecordingScreen();
         byte[] decode = Base64.getDecoder().decode(s);
         FileUtils.writeByteArrayToFile(new File("C:\\Users\\Andre\\Desktop\\disertatie\\disertatie\\src\\main\\java\\screenshots\\"+videoName+".mp4"),

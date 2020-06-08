@@ -21,7 +21,7 @@ public class MainMethods extends DriverSetup {
     By stay = By.xpath(".//div[@class='smb-dialog-btn smb-dialog-btn__no']");
     By input = By.xpath(".//input[@type='text']");
 
-    protected void searchYouTube(String field){
+    protected void searchYouTube(String field) throws InterruptedException {
         driver.get("http://www.youtube.com");
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         MobileElement searchButton = driver.findElementByXPath(".//button[@class='icon-button topbar-menu-button-avatar-button']");
@@ -29,6 +29,7 @@ public class MainMethods extends DriverSetup {
         MobileElement searchField = driver.findElementByXPath(".//input[@class='searchbox-input title']");
         searchField.sendKeys(field);
         searchField.sendKeys(Keys.ENTER);
+        Thread.sleep(10000);
         MobileElement video = driver.findElementByXPath(".//h4[@class='compact-media-item-headline']");
         video.click();
     }
